@@ -1,2 +1,2 @@
 # shirtisticx
-html , css , js and script
+A website for customized wears 
