@@ -1,0 +1,70 @@
+body {
+    background-image: url('wp.JPG');
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+    color: white; /* Text color */
+    font-family: Arial, sans-serif; /* Font style */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+}
+
+/* Main section styles */
+main {
+    padding: 20px;
+}
+
+/* Gallery styles */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the gallery items */
+}
+
+figure {
+    margin: 15px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for figures */
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Hide overflow */
+    width: 220px; /* Set a fixed width for the figure */
+    height: auto; /* Allow height to adjust automatically */
+}
+
+/* Adjust image styles */
+figure img {
+    max-width: 100%; /* Make the image responsive */
+    max-height: 150px; /* Set a maximum height for the image */
+    height: auto; /* Maintain aspect ratio */
+    border-bottom: 2px solid white; /* Add a border below the image */
+}
+
+.signin-button {
+    background-color: #35424a; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    padding: 10px 15px; /* Padding */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 5px; /* Rounded corners */
+    margin: 10px 0; /* Margin */
+}
+
+.signin-button:hover {
+    background-color: #45a049; /* Change background on hover */
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
